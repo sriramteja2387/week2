@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    footer{
+        color: beige;
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+    }
+    body{
+        background-image: url(23.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-success ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="do.jpg" alt="doraemon" width="40" height="40">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" id="navbarDropdown" data-bs-toggle="dropdown" href="#">
+                        Episodes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=yTrEDZPzW6k&list=PLLhOnau-tupR1PEY61XX22Jg1dD5_NnBV&index=1">Episode 1</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Episode 2</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Episode 3</a>
+                        </li>
+                    </ul>
+                </li>
+        </ul>
+        <form class="d-flex">
+            <input  class="form-control me-2" type="search" placeholder="search website">
+            <button class="btn btn-primary">
+                search
+            </button>
+        </form>
+        </div> 
+    </nav>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Doraemon Biography</h3>
+        </div>
+        <div class="col-sm-8">
+            <h5>Article </h5>
+            <p>
+                Doraemon (ドラえもん) is a Japanese manga series written and illustrated by Fujiko F. Fujio. The manga was first serialized in December 1969. Its chapters were collected in 45 tankōbon volumes published by Shogakukan from 1974 to 1996. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to aid a boy named Nobita Nob
+            </p>
+        </div>  
+    </div>
+</div>
+<footer class="container-fluid text-center bg-success">
+    <p>@COPY-Right CMRIT</p>
+</footer>
+</body>
+</html>
